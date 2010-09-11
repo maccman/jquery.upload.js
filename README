@@ -1,0 +1,16 @@
+
+Usage:
+
+$.upload(file, {
+  url: "http://example.com", 
+  progress: progressCallback,
+  load:    fileUploadedCallback,
+  success: successCallback,
+  method: "POST"
+});
+
+
+You can get the file object from a dragged file, a pasted file, or from a file input field. 
+Check the HTML5 specs for more information.
+
+Released under the MIT license by Alex MacCaw (info@eribium.org)
